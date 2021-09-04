@@ -1,0 +1,21 @@
+nav {
+  min-height: 70px;
+  background-color: #e5d1d0;
+  //   background-color: #839788;
+  //   background-color: #5b5f97;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  a {
+    text-decoration: none;
+    color: black;
+
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  a:hover {
+    color: #a3a3a3;
+  }
+}

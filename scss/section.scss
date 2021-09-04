@@ -1,0 +1,460 @@
+section {
+  min-height: 92vh;
+  width: 95%;
+  margin: 0 auto;
+  //   min-height: 100%;
+  //   background-color: rgb(123, 213, 255);
+}
+
+.first-section {
+  //   background-color: blue;
+  min-height: 92vh;
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 40px;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: space-evenly;
+
+  &__sale {
+    // width: 500px;
+    // height: 300px;
+    width: 100%;
+    height: 30vh;
+    background-color: #afafaf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+
+    &--blue {
+      background-color: #5dbfeb;
+    }
+
+    h1,
+    h2,
+    h3 {
+      text-transform: uppercase;
+      color: white;
+      margin-bottom: 0px;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    h3 {
+      font-size: 16px;
+    }
+
+    span {
+      color: #f5ed32;
+    }
+
+    &__btn {
+      width: 170px;
+      height: 45px;
+      background-color: white;
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      &--margin {
+        margin-top: 17px;
+      }
+    }
+  }
+
+  &__promotion {
+    width: 100%;
+    min-height: 55%;
+    display: flex;
+    // align-items: center;
+    justify-content: space-between;
+    // background-color: black;
+    margin-top: 43px;
+    &__one {
+      width: 48%;
+      height: 100%;
+      background-color: green;
+      text-decoration: none;
+
+      &--pool {
+        background-image: url(../images/pool-side.jpg);
+        background-position: bottom;
+        background-repeat: none;
+        background-size: cover;
+      }
+
+      &--swim {
+        background-image: url(../images/swim.jpeg);
+        background-position: bottom;
+        background-repeat: none;
+        background-size: cover;
+      }
+
+      &__bottom {
+        width: 100%;
+        height: 60px;
+        background-color: #5dbfeb;
+        margin-top: 353px;
+        display: flex;
+        align-items: center;
+
+        h2 {
+          margin-bottom: 0;
+          margin-left: 12px;
+          color: white;
+          font-size: 40px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  &__circles {
+    width: 100%;
+    min-height: 215px;
+    margin-top: 95px;
+    display: flex;
+    justify-content: space-between;
+
+    &__clothing {
+      width: 215px;
+      height: 215px;
+      // background-color: blueviolet;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+
+      &--polo {
+        background-image: url(../images/polo.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+
+      &--buttondown {
+        background-image: url(../images/button-down.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+
+      &--graphic {
+        background-image: url(../images/graphic-tee.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+
+      &--tshirts {
+        background-image: url(../images/t-shirt.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+
+      &--shorts {
+        background-image: url(../images/mens-shorts.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+
+      &--accessories {
+        background-image: url(../images/accessories.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+
+      &--wtops {
+        background-image: url(../images/wtops.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+
+      &--wbottoms {
+        background-image: url(../images/wbottoms.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+
+      &--dresses {
+        background-image: url(../images/dresses.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+
+      &--wshorts {
+        background-image: url(../images/wshorts.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+
+      &--wsweaters {
+        background-image: url(../images/wsweaters.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+
+      &--wactive {
+        background-image: url(../images/wactive.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+
+      p {
+        font-size: 17px;
+        margin-top: 220px;
+      }
+    }
+  }
+}
+
+.second-section {
+  min-height: 92vh;
+  width: 95%;
+  margin: 0 auto;
+  // background-color: blueviolet;
+
+  &__promotion {
+    width: 100%;
+    height: 400px;
+    // background-color: green;
+    display: flex;
+    justify-content: space-between;
+
+    &--margin {
+      margin-top: -50px;
+    }
+
+    &__clothes {
+      width: 29%;
+      height: 100%;
+      // background-color: red;
+
+      &--shoes {
+        background-image: url(../images/shoes.jpg);
+        background-position: top;
+        background-repeat: none;
+        background-size: cover;
+      }
+
+      &--shorts {
+        background-image: url(../images/shorts.jpg);
+        background-position: top;
+        background-repeat: none;
+        background-size: cover;
+      }
+
+      &--tees {
+        background-image: url(../images/tees.jpg);
+        background-position: top;
+        background-repeat: none;
+        background-size: cover;
+      }
+
+      &--crewneck {
+        background-image: url(../images/crewneck.jfif);
+        background-position: center;
+        background-size: cover;
+        // outline: black 1px solid;
+      }
+
+      &--white-button-down {
+        background-image: url(../images/white-button-down.jfif);
+        background-position: center;
+        background-size: cover;
+        // outline: black 1px solid;
+      }
+
+      &--yellow-graphic {
+        background-image: url(../images/yellow-graphic.png);
+        background-position: center;
+        background-size: cover;
+        // outline: black 1px solid;
+      }
+
+      &--keyhole {
+        background-image: url(../images/keyhole-blouse.jfif);
+        background-position: center;
+        background-size: cover;
+        // outline: black 1px solid;
+      }
+
+      &--wjeans {
+        background-image: url(../images/wjeans.jfif);
+        background-position: center;
+        background-size: cover;
+        // outline: black 1px solid;
+      }
+
+      &--floral-dress {
+        background-image: url(../images/floral-dress.jfif);
+        background-position: center;
+        background-size: cover;
+        // outline: black 1px solid;
+      }
+
+      &__bottom {
+        width: 100%;
+        height: 60px;
+        background-color: #5dbfeb;
+        margin-top: 340px;
+        display: flex;
+        align-items: center;
+
+        h2 {
+          margin-bottom: 0;
+          margin-left: 12px;
+          color: white;
+          font-size: 40px;
+          text-transform: uppercase;
+        }
+
+        h3 {
+          margin-bottom: 0;
+          margin-left: 12px;
+          color: white;
+          font-size: 20px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  &__sale {
+    width: 100%;
+    min-height: 38vh;
+    margin-top: 34px;
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--black {
+      background-color: rgb(49, 49, 49);
+      padding-top: 15px;
+    }
+
+    &--navyblue {
+      background-color: #1d3276;
+    }
+
+    h1 {
+      margin-top: 20px;
+      color: white;
+      margin-bottom: 0px;
+      font-size: 70px;
+    }
+
+    h2 {
+      color: white;
+      margin-bottom: 0px;
+      font-size: 45px;
+    }
+
+    p {
+      color: white;
+      margin-bottom: 0;
+      font-size: 27px;
+    }
+
+    span {
+      color: #f5ed32;
+    }
+
+    &__btn {
+      width: 170px;
+      height: 45px;
+      background-color: white;
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      &--margin {
+        margin-top: 25px;
+      }
+    }
+  }
+}
+
+//additional colors
+// F5E4D7
+// BDBBB6
+
+@media screen and (max-width: 850px) {
+  .first-section {
+    &__promotion {
+      flex-direction: column;
+      align-items: center;
+      &__one {
+        width: 100%;
+        margin-bottom: 45px;
+      }
+    }
+  }
+
+  .second-section {
+    &__sale {
+      padding-top: 40px;
+      h1 {
+        // margin-top: 60px;
+        font-size: 40px;
+      }
+
+      h2 {
+        font-size: 30px;
+      }
+
+      p {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .first-section {
+    &__circles {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+      margin-bottom: 90px;
+      &__clothing {
+        margin-bottom: 60px;
+      }
+    }
+  }
+
+  .second-section {
+    &__promotion {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 950px;
+
+      &__clothes {
+        margin-bottom: 50px;
+        width: 75%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1000px) {
+  .first-section {
+    &__circles {
+      &__clothing {
+        width: 150px;
+        height: 150px;
+      }
+
+      p {
+        margin-top: 165px;
+        text-align: center;
+      }
+    }
+  }
+}
